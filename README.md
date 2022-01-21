@@ -1,0 +1,1 @@
+# Kitty NFTs page
