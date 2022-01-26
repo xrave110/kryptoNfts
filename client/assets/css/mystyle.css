@@ -4,13 +4,6 @@
   src        : url("Poppins-Light.ttf");
 }
 
-body {
-  font-family: Poppins;
-  font-weight: 500;
-  letter-spacing: 1px; 
-}
-
-
 .navbar-light {
   background: #ffffff;
 }
@@ -487,11 +480,6 @@ h4 {
 }
 
 /* EFFECTS ANIMATIONS */
-
-.reflex-box {
-
-  -webkit-box-reflect: below 5px -webkit-gradient(linear, left top, left bottom, from(transparent), color-stop(0%, transparent), to(rgba(250, 250, 250, 0.2)))
-}
 
 .grow {
   transition: all .2s ease-in-out;

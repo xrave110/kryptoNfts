@@ -1,0 +1,182 @@
+html {
+    box-sizing: border-box;
+    overflow-y: scroll;
+}
+
+main{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+body {
+    background: #607d8b;
+    font-family: Poppins;
+    letter-spacing: 1px;
+    font-size: 1.3rem;
+    margin: 0 auto;
+    display:flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: flex-start; 
+}
+
+.factory-setting{
+    display: flex;
+    flex-direction: column;
+}
+
+/* Header */
+.section-header{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    background-color: rgba(35, 34, 39, 0.377);
+    border-radius: 10px;
+    border-bottom: black;
+}
+
+.header-logo{
+    color: whitesmoke;
+    font-family:'Segoe UI';
+    flex-wrap: wrap;
+    margin-top: 10px;
+    align-self: center;
+}
+
+.main-nav{
+    flex-wrap: wrap;
+    justify-content: center;
+    align-self: center;
+}
+
+.main-item{
+    flex-wrap: wrap;
+    align-self: center;
+    margin: 2px;
+    margin-bottom: 8px;
+    padding: .25rem .95rem;
+    font-size: 12px;
+    border: 0.5px solid black;
+    background-color: rgb(49, 189, 44);
+}
+
+/* Banner */
+.section-banner{
+    color: wheat;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 100%;
+}
+
+.tittle-banner{
+    align-self: center;
+}
+
+.details-banner{
+    align-self: center;
+}
+
+/* Params */
+.section-params{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+/* Cat */
+.section-cat{
+    display: flex;
+    flex-direction: column;
+}
+
+.catBox {
+    background-color: #e2efff;
+    border-radius: 10px;
+    padding: 50px;
+}
+
+.cattributes {
+    padding: 25px;
+    background-color: #ededed;
+    border-radius: 10px;
+}
+
+.dnaDiv {
+    padding-top: 160px;
+    align-self: center;
+    font-size: 12px;
+}
+
+.section-buttons{
+    display: flex;
+    justify-content: space-around;
+    padding-left: 10px;
+    padding-right: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+@media screen and (min-width: 750px) {
+    body{
+        flex-direction: row;
+    }
+    main{
+        flex-wrap: wrap;
+    }
+
+    .factory-setting{
+        flex-direction: row;
+    }
+
+    .section-header{
+        flex-direction: row;
+    }
+    .header-logo{
+        margin-top: 15px;
+        padding-left: 20px;
+        flex-wrap: wrap;
+        width: 35%;
+    }
+    .main-nav{
+        display: flex;
+        flex-wrap: wrap;
+        width: 65%;
+        justify-content: flex-end;
+    }
+
+    .main-item{
+        width: 26%;
+        height: 62px;
+        font-size: 18px;
+        margin: 2px;
+        margin-left: 3px;
+        margin-right: 3px;
+    }
+
+    .section-params{
+        order: 2;
+        width: 58%;
+    }
+    .section-cat{
+        order: 1;
+        width: 39%;
+    }
+
+    .section-buttons{
+        width: 100%;
+    }
+
+    .btn-flex{
+        align-self: flex-end;
+    }
+
+    .section-info{
+        width: 100%;
+    }
+
+    .dnaDiv {
+        font-size: 15px;
+    }
+}

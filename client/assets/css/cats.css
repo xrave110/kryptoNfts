@@ -3,15 +3,10 @@
     padding: 0;
     box-sizing: inherit;
 }
-html {
-    box-sizing: border-box;
-    overflow-y: scroll;
+.cat{
+    display: flex;
+    flex-direction: column;
 }
-body {
-    background: #607d8b;
- 
-}
-
 .cat__head {
     position: relative;
     width: 230px;
@@ -21,6 +16,7 @@ body {
     border-radius: 50% 50% 45% 45%;
     background: #ffcc80;
     z-index: 20;
+    align-self: center;
 }
 .cat__head-dots {
     position: absolute;
@@ -56,6 +52,7 @@ body {
 
 .cat__ear {
     position: relative;
+    align-self: center;
 }
 .cat__ear--left, .cat__ear--right {
     position: absolute;
@@ -71,11 +68,11 @@ body {
 }
 .cat__ear--left {
     transform: scale(-1, 1) rotate(170deg);
-    left: -14px;
+    left: -124px;
 }
 .cat__ear--right {
     transform: rotate(170deg);
-    left: 94px;
+    left: -26px;
 }
 .cat__ear--left-inside, .cat__ear--right-inside {
     width: 108px;
@@ -211,10 +208,11 @@ body {
 }
 .cat__body {
     position: relative;
+    align-self: center;
 }
 .cat__chest {
     position: absolute;
-    left: 54px;
+    left: -60px;
     top: -48px;
     width: 120px;
     height: 120px;
@@ -227,7 +225,7 @@ body {
     content: '';
     position: absolute;
     top: 30px;
-    left: 70px;
+    left: -43px;
     width: 88px;
     height: 35px;
     border-radius: 50%;
@@ -251,7 +249,7 @@ body {
     content: '';
     position: absolute;
     top: 40px;
-    left: 148px;
+    left: 30px;
     width: 35px;
     height: 32px;
     background: #ffcc80;
@@ -264,7 +262,7 @@ body {
     content: '';
     position: absolute;
     top: 40px;
-    left: 48px;
+    left: -66px;
     width: 35px;
     height: 32px;
     background: #ffcc80;
@@ -273,14 +271,14 @@ body {
     z-index: 2;
 }
 .cat__paw-left {
-    left: 78px;
+    left: -31px;
     border-radius: 0 0 45% 35%;
 }
 .cat__paw-left::after {
     left: -32px;
 }
 .cat__paw-right {
-    left: 122px;
+    left: 8px;
     border-radius: 0 0 35% 45%;
 }
 .cat__paw-right::after {
@@ -289,7 +287,7 @@ body {
 .cat__tail {
     position: absolute;
     top: 16px;
-    left: 123px;
+    left: 8px;
     width: 90px;
     height: 23px;
     background: #ffcc80;

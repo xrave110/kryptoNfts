@@ -36,7 +36,7 @@
       "type": "function"
     }
   ],
-  "metadata": "{\"compiler\":{\"version\":\"0.8.9+commit.e5eed63a\"},\"language\":\"Solidity\",\"output\":{\"abi\":[{\"inputs\":[{\"internalType\":\"address\",\"name\":\"operator\",\"type\":\"address\"},{\"internalType\":\"address\",\"name\":\"from\",\"type\":\"address\"},{\"internalType\":\"uint256\",\"name\":\"tokenId\",\"type\":\"uint256\"},{\"internalType\":\"bytes\",\"name\":\"data\",\"type\":\"bytes\"}],\"name\":\"onERC721Received\",\"outputs\":[{\"internalType\":\"bytes4\",\"name\":\"\",\"type\":\"bytes4\"}],\"stateMutability\":\"nonpayable\",\"type\":\"function\"}],\"devdoc\":{\"kind\":\"dev\",\"methods\":{},\"version\":1},\"userdoc\":{\"kind\":\"user\",\"methods\":{},\"version\":1}},\"settings\":{\"compilationTarget\":{\"project:/contracts/IERC721Receiver.sol\":\"IERC721Receiver\"},\"evmVersion\":\"london\",\"libraries\":{},\"metadata\":{\"bytecodeHash\":\"ipfs\"},\"optimizer\":{\"enabled\":false,\"runs\":200},\"remappings\":[]},\"sources\":{\"project:/contracts/IERC721Receiver.sol\":{\"keccak256\":\"0xce3c85f2ac3a222013b9f8a7eb8f8a49229d508f1c1e626773a9ff4da27d3044\",\"urls\":[\"bzz-raw://ab153d94a57a144cb4c6aa317eeb496485352bcca71ce23257eef39710bbca8f\",\"dweb:/ipfs/Qme3BAuyZ3MJnbj4Yqk9aVRp87wWVRUKskjL2gkM3DuQKB\"]}},\"version\":1}",
+  "metadata": "{\"compiler\":{\"version\":\"0.8.11+commit.d7f03943\"},\"language\":\"Solidity\",\"output\":{\"abi\":[{\"inputs\":[{\"internalType\":\"address\",\"name\":\"operator\",\"type\":\"address\"},{\"internalType\":\"address\",\"name\":\"from\",\"type\":\"address\"},{\"internalType\":\"uint256\",\"name\":\"tokenId\",\"type\":\"uint256\"},{\"internalType\":\"bytes\",\"name\":\"data\",\"type\":\"bytes\"}],\"name\":\"onERC721Received\",\"outputs\":[{\"internalType\":\"bytes4\",\"name\":\"\",\"type\":\"bytes4\"}],\"stateMutability\":\"nonpayable\",\"type\":\"function\"}],\"devdoc\":{\"kind\":\"dev\",\"methods\":{},\"version\":1},\"userdoc\":{\"kind\":\"user\",\"methods\":{},\"version\":1}},\"settings\":{\"compilationTarget\":{\"project:/contracts/IERC721Receiver.sol\":\"IERC721Receiver\"},\"evmVersion\":\"london\",\"libraries\":{},\"metadata\":{\"bytecodeHash\":\"ipfs\"},\"optimizer\":{\"enabled\":false,\"runs\":200},\"remappings\":[]},\"sources\":{\"project:/contracts/IERC721Receiver.sol\":{\"keccak256\":\"0xce3c85f2ac3a222013b9f8a7eb8f8a49229d508f1c1e626773a9ff4da27d3044\",\"urls\":[\"bzz-raw://ab153d94a57a144cb4c6aa317eeb496485352bcca71ce23257eef39710bbca8f\",\"dweb:/ipfs/Qme3BAuyZ3MJnbj4Yqk9aVRp87wWVRUKskjL2gkM3DuQKB\"]}},\"version\":1}",
   "bytecode": "0x",
   "deployedBytecode": "0x",
   "immutableReferences": {},
@@ -45,7 +45,7 @@
   "sourceMap": "",
   "deployedSourceMap": "",
   "source": "pragma solidity ^0.8.0;\n\ninterface IERC721Receiver{\n    function onERC721Received(address operator, address from, uint tokenId, bytes calldata data) external returns(bytes4); \n}",
-  "sourcePath": "/home/anything/Blockchain/dapps/cryptokitties/academy-kitties-template/contracts/IERC721Receiver.sol",
+  "sourcePath": "/home/anything/Blockchain/dapps/cryptokitties/kittyNfts/contracts/IERC721Receiver.sol",
   "ast": {
     "absolutePath": "project:/contracts/IERC721Receiver.sol",
     "exportedSymbols": {
@@ -468,11 +468,11 @@
   },
   "compiler": {
     "name": "solc",
-    "version": "0.8.9+commit.e5eed63a.Emscripten.clang"
+    "version": "0.8.11+commit.d7f03943.Emscripten.clang"
   },
   "networks": {},
   "schemaVersion": "3.4.3",
-  "updatedAt": "2021-11-09T12:20:41.183Z",
+  "updatedAt": "2022-01-24T06:23:23.152Z",
   "devdoc": {
     "kind": "dev",
     "methods": {},

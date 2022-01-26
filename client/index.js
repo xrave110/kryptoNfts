@@ -2,9 +2,9 @@ var web3 = new Web3(Web3.givenProvider);
 
 var instance;
 var user;
-var contractAddress = "0xDd19A7Ed2423D55602453eAa2cf0628Afe6c2dC8"
+var contractAddress = "0x136c9fEc0c590B780D449A8fCB0237f387e52A55"
 
-const ethereumButton = document.querySelector('.enableEthereumButton');
+const ethereumButton = document.querySelector('.js-enable-connection');
 
 ethereumButton.addEventListener('click', () => {
   //Will Start the metamask extension
@@ -16,7 +16,7 @@ ethereumButton.addEventListener('click', () => {
       console.log("Deployed instance: \n");
       console.log(instance);
     }).then(()=>{
-      document.getElementById("connect").innerHTML = "Connected (" + user + ")";
+      document.getElementById("connect").innerHTML = "Connected(" + user.substr(0, 4) + substr(-4, 4) + ")";
     })
   }
   else {
